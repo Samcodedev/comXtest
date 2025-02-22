@@ -1,0 +1,49 @@
+.react-international-phone-input-container .react-international-phone-input {
+  height: 47px !important;
+  width: 100%;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  border-radius: 3px !important;
+  border-color: #E8ECEF !important;
+}
+
+.react-international-phone-input-container .react-international-phone-country-selector-button {
+  height: 47px;
+  margin-right: 10px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  border-radius: 3px !important;
+  border-color: #E8ECEF !important;
+}
+
+
+
+
+@media screen and (max-width: 1466px) {
+  .top-price{
+    display: none;
+  }
+  .logo{
+    width: 90%;
+  }
+  .demo{
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 1298px) {
+  .buy-sell{
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 1156px) {
+  .market{
+    position: absolute;
+    z-index: 50;
+    top: 60px;
+    left: 107px;
+    box-shadow: 0 0.5px 6px rgba(128, 128, 128, 0.3);
+  }
+}
